@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hayats portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+  <body>
+    <header
+      class="sticky top-0 z-50 px-4 pt-4 sm:px-6 lg:px-8 bg-black p-4 md:pr-14 mx-14 my-4 border bg-background/75 rounded-lg shadow-sm backdrop-blur-xl"
+    >
+      <nav class="flex flex-row items-center justify-between">
+        <h1 class="font-bold text-xl md:text-4xl text-white md:pl-6">
+          Hayat_A
+          <span
+            class="font-bold bg-gradient-to-r from-violet-500 via-indigo to-purple-50 bg-clip-text text-transparent"
+            >.</span
+          >
+        </h1>
+        <div class="humberger flex md:hidden flex-col">
+          <span class="w-4 h-0.5 bg-white mb-1"></span>
+          <span class="w-4 h-0.5 bg-white mb-1"></span>
+          <span class="w-4 h-0.5 bg-white mb-1"></span>
+        </div>
+        <ul
+          class="lists hidden md:flex flex-row justify-between gap-6 text-white"
+        >
+          <li
+            class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
+          >
+            <a href="#home">Home</a>
+          </li>
+          <li
+            class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
+          >
+            <a href="#about">About</a>
+          </li>
+          <li
+            class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
+          >
+            <a href="#skills">Skills</a>
+          </li>
+          <li
+            class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
+          >
+            <a href="#projects">Projects</a>
+          </li>
+          <li
+            class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
+          >
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="md:ml-16 ml-8 flex flex-col-reverse md:flex-row">
+      <div>
+        <h1 class="font-bold text-2xl md:text-5xl md:pt-12 text-white">
+          Hi, I'm <br />
+          <span
+            class="bg-gradient-to-r from-violet-500 via-indigo to-purple-50 bg-clip-text text-transparent font-bold"
+            >Hayat Abdurehman</span
+          >
+        </h1>
+        <p class="text-white py-8">
+          i'm Hayat Abdurehman,a passionate Software Engineering student at
+          Jimma University and a dedicated Frontend Developer with a strong
+          drive for crafting intuitive, pixel-perfect, and responsive web
+          applications.
+        </p>
+        <a
+          href="#projects"
+          class="inline-flex h-11 items-center gap-2 rounded-xl bg-primary text-white px-5 text-sm font-semibold shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md hover:bg-gradient-to-r from-violet-500 via-indigo to-purple-50 bg-clip-text text-transparent"
+          >View My Work<svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+            class="lucide lucide-arrow-down-right h-4 w-4 text-white"
+          >
+            <path d="m7 7 10 10"></path>
+            <path d="M17 7v10H7"></path>
+          </svg>
+        </a>
+        <a href="#contact"
+          ><button
+            type="button"
+            class="border-md px-2 py-1 transition-all hover:-translate-y-0.5 rounded-lg text-white hover:bg-gradient-to-r from-violet-500 via-indigo to-purple-500"
+          >
+            Let's Talk
+          </button></a
+        >
+      </div>
+      <div class="md:mx-48">
+        <img
+          src="./assets/image.png"
+          alt=""
+          class="w-50 h-100 rounded-full items-center object-cover shadow-2xl"
+        />
+      </div>
+    </section>
+    <section id="about" class="mt-12">
+      <h2
+        class="mb-3 text-center text-xl font-semibold uppercase tracking-[0.18em] text-indigo-500"
+      >
+        About Me
+      </h2>
+      <p class="text-4xl font-bold text-white md:mx-96 text-center">
+        Building with purpose,<span class="text-4xl font-bold text-indigo-500">
+          learning every day.</span
+        >
+      </p>
+      <p class="text-white text-center flex flex-col md:mx-64 pt-6">
+        I am a Software Engineering student at Jimma University and a Frontend
+        Developer passionate about building responsive, user-friendly web
+        applications. Specializing in React, TypeScript, Tailwind CSS, Vite, and
+        Git, I focus on transforming design concepts into clean, functional
+        code. My portfolio highlights hands-on experience with API integration,
+        state management, and multi-theme designs developed through real-world
+        projects and Frontend Mentor challenges. Dedicated to continuous
+        learning, I strive to craft scalable digital experiences with intuitive
+        interfaces.
+      </p>
+    </section>
+    <section id="skills" class="mt-10">
+      <h2
+        class="my-3 text-center text-xl font-semibold uppercase tracking-[0.18em] text-indigo-500"
+      >
+        Skills And Technologies
+      </h2>
+      <div class="grid grid-row md:flex-col">
+        <div>
+          <p
+            class="md:text-4xl text-lg font-bold text-white md:mx-96 text-center"
+          >
+            Technologies I use to<span
+              class="text-lg md:text-4xl font-bold text-indigo-500"
+            >
+              build things.</span
+            >
+          </p>
+          <p class="text-white text-center text-lg p-2">
+            Explore the technologies and tools I use across frontend development
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-24 justify-around md:mx-24 my-4"
+        >
+          <div
+            class="bg-[rgba(30,41,59,0.7)] flex flex-col gap-2 items-center justify-center p-6 rounded-xl transition-all hover:-translate-y-0.5"
+          >
+            <i
+              class="fa-brands fa-html5 text-5xl text-orange-500"
+              aria-hidden="true"
+            ></i
+            ><span class="text-white font-semibold hover:text-violet-500"
+              >HTML</span
+            >
+          </div>
+          <div
+            class="bg-[rgba(30,41,59,0.7)] flex flex-col gap-2 items-center justify-center p-6 rounded-xl transition-all hover:-translate-y-0.5"
+          >
+            <i
+              class="fa-brands fa-css3-alt text-5xl text-blue-500"
+              aria-hidden="true"
+            ></i>
+            <span class="text-white font-semibold hover:text-violet-500"
+              >CSS</span
+            >
+          </div>
+          <div
+            class="bg-[rgba(30,41,59,0.7)] flex flex-col gap-2 items-center justify-center p-6 rounded-xl transition-all hover:-translate-y-0.5"
+          >
+            <i
+              class="fa-brands fa-js text-5xl text-yellow-400"
+              aria-hidden="true"
+            ></i
+            ><span class="text-white font-semibold hover:text-violet-500"
+              >Java Script</span
+            >
+          </div>
+          <div
+            class="bg-[rgba(30,41,59,0.7)] flex flex-col gap-2 items-center justify-center p-6 rounded-xl transition-all hover:-translate-y-0.5"
+          >
+            <i
+              class="fa-brands fa-react text-5xl text-cyan-500"
+              aria-hidden="true"
+            ></i>
+            <span class="text-white font-semibold hover:text-violet-500"
+              >React</span
+            >
+          </div>
+          <div
+            class="bg-[rgba(30,41,59,0.7)] flex flex-col gap-2 items-center justify-center p-6 rounded-xl transition-all hover:-translate-y-0.5"
+          >
+            <i
+              class="devicon-tailwindcss-plain colored text-5xl"
+              aria-hidden="true"
+            ></i>
+            <span class="text-white font-semibold hover:text-violet-500"
+              >Tailwind Css</span
+            >
+          </div>
+          <div
+            class="bg-[rgba(30,41,59,0.7)] flex flex-col gap-2 items-center justify-center p-6 rounded-xl transition-all hover:-translate-y-0.5"
+          >
+            <i
+              class="devicon-typescript-plain colored text-5xl"
+              aria-hidden="true"
+            ></i>
+            <span class="text-white font-semibold hover:text-violet-500"
+              >Type Script</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="mt-10">
+      <h2
+        class="my-3 text-center text-xl font-semibold uppercase tracking-[0.18em] text-indigo-500"
+      >
+        Selected Work
+      </h2>
+      <div class="mx-auto max-w-5xl px-4 grid md:grid-cols-2 gap-6">
+        <div
+          class="group p-6 bg-black overflow-hidden rounded-lg transition-all hover:-translate-y-1"
+        >
+          <iframe
+            src="https://shiera-m2w4-six.vercel.app/"
+            title="Project preview"
+            loading="lazy"
+            scrolling="no"
+            class="h-[300px] w-full rounded-lg border border-slate-700 bg-black transition-transform duration-500 group-hover:scale-[1.035]"
+          ></iframe>
+          <div class="flex flex-row justify-between items-center my-3">
+            <h1
+              class="font-bold text-2xl bg-gradient-to-r from-violet-500 via-indigo to-purple-50 bg-clip-text text-transparent"
+            >
+              Weather App
+            </h1>
+            <a href="https://shiera-m2w4-six.vercel.app/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                class="lucide lucide-arrow-down-right h-4 w-4 text-white"
+              >
+                <path d="m7 7 10 10"></path>
+                <path d="M17 7v10H7"></path>
+              </svg>
+            </a>
+          </div>
+          <hr />
+          <p class="text-white">
+            This project is a weather search app that shows current weather
+            details, a 7-day forecast, and hourly weather updates for a searched
+            location. The app uses: OpenStreetMap Nominatim for location search
+            Open-Meteo for weather forecast and current weather data
+          </p>
+          <div class="flex flex-row gap-4 mt-6">
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+            >
+              <i
+                class="fa-brands fa-html5 text-lg text-white"
+                aria-hidden="true"
+              ></i
+              ><span class="text-white text-sm hover:text-violet-500"
+                >HTML</span
+              >
+            </span>
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+            >
+              <i
+                class="devicon-tailwindcss-plain colored text-lg"
+                aria-hidden="true"
+              ></i>
+              <span class="text-white text-sm hover:text-violet-500"
+                >Tailwind Css</span
+              >
+            </span>
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+              ><i
+                class="fa-brands fa-js text-lg text-yellow-400"
+                aria-hidden="true"
+              ></i
+              ><span class="text-white text-sm hover:text-violet-500"
+                >Java Script</span
+              ></span
+            >
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex items-center text-white px-2"
+            >
+              API</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="group overflow-hidden rounded-lg p-6 bg-black transition-all hover:-translate-y-1"
+        >
+          <iframe
+            src="https://calculator-drab-delta-85.vercel.app/"
+            title="Project preview"
+            loading="lazy"
+            scrolling="no"
+            class="h-[300px] w-full rounded-lg border border-slate-700 bg-white transition-transform duration-500 group-hover:scale-[1.035]"
+          ></iframe>
+          <div class="flex flex-row justify-between items-center my-3">
+            <h1
+              class="font-bold text-2xl bg-gradient-to-r from-violet-500 via-indigo to-purple-50 bg-clip-text text-transparent"
+            >
+              Calculator App
+            </h1>
+            <a href="https://calculator-drab-delta-85.vercel.app/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                class="lucide lucide-arrow-down-right h-4 w-4 text-white"
+              >
+                <path d="m7 7 10 10"></path>
+                <path d="M17 7v10H7"></path>
+              </svg>
+            </a>
+          </div>
+          <hr />
+          <p class="text-white">
+            A responsive, accessible, and feature-complete calculator web
+            application built as part of the Frontend Mentor challenge. Features
+            a custom 3-state theme switcher powered by React Context, custom CSS
+            grid layouts, and full physical keyboard support.
+          </p>
+          <div class="flex flex-row gap-4 mt-6">
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+            >
+              <i
+                class="fa-brands fa-react text-lg text-white"
+                aria-hidden="true"
+              ></i
+              ><span class="text-white text-sm hover:text-violet-500"
+                >React</span
+              >
+            </span>
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+            >
+              <i
+                class="devicon-tailwindcss-plain colored text-lg"
+                aria-hidden="true"
+              ></i>
+              <span class="text-white text-sm hover:text-violet-500"
+                >Tailwind Css</span
+              >
+            </span>
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+              ><i
+                class="devicon-typescript-plain colored text-lg"
+                aria-hidden="true"
+              ></i>
+              <span class="text-white text-sm hover:text-violet-500"
+                >Type Script</span
+              ></span
+            >
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex items-center text-white px-2"
+            >
+              Vite</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="group overflow-hidden rounded-lg p-6 bg-black transition-all hover:-translate-y-1"
+        >
+          <iframe
+            src="https://e-commerce-product-page-red-phi.vercel.app/"
+            title="Project preview"
+            loading="lazy"
+            scrolling="no"
+            class="h-[300px] w-full rounded-lg border border-slate-700 bg-white transition-transform duration-500 group-hover:scale-[1.035]"
+          ></iframe>
+          <div class="flex flex-row justify-between items-center my-3">
+            <h1
+              class="font-bold text-2xl bg-gradient-to-r from-violet-500 via-indigo to-purple-50 bg-clip-text text-transparent"
+            >
+              E-Commeerce product Page
+            </h1>
+            <a href="https://e-commerce-product-page-red-phi.vercel.app/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                class="lucide lucide-arrow-down-right h-4 w-4 text-white"
+              >
+                <path d="m7 7 10 10"></path>
+                <path d="M17 7v10H7"></path>
+              </svg>
+            </a>
+          </div>
+          <hr />
+          <p class="text-white">
+            A responsive e-commerce product page for a limited-edition sneaker.
+            Browse product photos, choose a quantity, add the item to the cart,
+            and review or remove it from the cart panel.
+          </p>
+          <div class="flex flex-row gap-4 mt-6">
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+            >
+              <i
+                class="fa-brands fa-react text-lg text-white"
+                aria-hidden="true"
+              ></i
+              ><span class="text-white text-sm hover:text-violet-500"
+                >React</span
+              >
+            </span>
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+            >
+              <i
+                class="devicon-tailwindcss-plain colored text-lg"
+                aria-hidden="true"
+              ></i>
+              <span class="text-white text-sm hover:text-violet-500"
+                >Tailwind Css</span
+              >
+            </span>
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+              ><i
+                class="devicon-typescript-plain colored text-lg"
+                aria-hidden="true"
+              ></i>
+              <span class="text-white text-sm hover:text-violet-500"
+                >Type Script</span
+              ></span
+            >
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex items-center text-white px-2"
+            >
+              Vite</span
+            >
+          </div>
+        </div>
+        <div
+          class="group overflow-hidden rounded-lg p-6 bg-black transition-all hover:-translate-y-1"
+        >
+          <iframe
+            src="https://notification-page-qhs6.vercel.app/"
+            title="Project preview"
+            loading="lazy"
+            scrolling="no"
+            class="h-[300px] w-full rounded-lg border border-slate-700 bg-white transition-transform duration-500 group-hover:scale-[1.035]"
+          ></iframe>
+          <div class="flex flex-row justify-between items-center my-3">
+            <h1
+              class="font-bold text-2xl bg-gradient-to-r from-violet-500 via-indigo to-purple-50 bg-clip-text text-transparent"
+            >
+              Notification Page
+            </h1>
+            <a href="https://notification-page-qhs6.vercel.app/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                class="lucide lucide-arrow-down-right h-4 w-4 text-white"
+              >
+                <path d="m7 7 10 10"></path>
+                <path d="M17 7v10H7"></path>
+              </svg>
+            </a>
+          </div>
+          <hr />
+          <p class="text-white">
+            A modern, responsive, and fully accessible Notifications Page
+            component built with React, TypeScript, and Tailwind CSS. Designed
+            to handle real-time state updates, conditional rendering, and
+            dynamic image bundling seamlessly.
+          </p>
+          <div class="flex flex-row gap-4 mt-6">
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+            >
+              <i
+                class="fa-brands fa-react text-lg text-white"
+                aria-hidden="true"
+              ></i
+              ><span class="text-white text-sm hover:text-violet-500"
+                >React</span
+              >
+            </span>
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+            >
+              <i
+                class="devicon-tailwindcss-plain colored text-lg"
+                aria-hidden="true"
+              ></i>
+              <span class="text-white text-sm hover:text-violet-500"
+                >Tailwind Css</span
+              >
+            </span>
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex flex-row items-center gap-1 px-2"
+              ><i
+                class="devicon-typescript-plain colored text-lg"
+                aria-hidden="true"
+              ></i>
+              <span class="text-white text-sm hover:text-violet-500"
+                >Type Script</span
+              ></span
+            >
+            <span
+              class="border rounded-lg bg-[rgba(30,41,59,0.7)] flex items-center text-white px-2"
+            >
+              Vite</span
+            >
+          </div>
+        </div>
+      </div>
+      <a
+        href="https://github.com/Hayat615-coder"
+        class="text-white flex items-center justify-center gap-3 font-semibold text-lg"
+        >Explore More Projects
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+          class="lucide lucide-arrow-down-right h-4 w-4 text-white"
+        >
+          <path d="m7 7 10 10"></path>
+          <path d="M17 7v10H7"></path>
+        </svg>
+      </a>
+    </section>
+    <section id="contact" class="mt-10">
+      <h2
+        class="mb-3 text-center text-xl font-semibold uppercase tracking-[0.18em] text-indigo-500"
+      >
+        GET IN TOUCH
+      </h2>
+      <p class="text-4xl font-bold text-white md:mx-96 text-center">
+        Let's build something<span class="text-4xl font-bold text-indigo-500">
+          great together.</span
+        >
+      </p>
+      <div class="flex flex-col md:flex-row">
+        <div class="border p-8 rounded-xl mt-8 mx-8">
+          <div class="flex flex-row gap-4">
+            <span class="border p-4 rounded-lg bg-indigo-500">
+              <i class="fa-solid fa-envelope text-white text-lg"></i>
+            </span>
+            <h2 class="pt-4 text-white text-lg font-semibold">
+              Start a Conversation
+            </h2>
+          </div>
+          <p class="text-white mb-4">
+            If you would like to reach out to collaborate on projects or web
+            layouts feel free to contact me.
+          </p>
+          <span class="flex flex-row gap-2">
+            <i class="fa-solid fa-envelope text-white text-lg px-4"></i>
+            <p class="text-white flex flex-col">
+              Email
+              <a
+                href="mailto:yuyutayaho66@gmail.com"
+                class="hover:text-indigo-500"
+                >yuyutayaho66@gmail.com</a
+              >
+            </p></span
+          >
+          <span class="flex flex-row gap-2 mt-3">
+            <i class="fa-solid fa-location-dot text-white text-lg px-4"></i>
+            <p class="text-white flex flex-col">
+              Based In
+              <span>Ethiopia</span>
+            </p></span
+          >
+          <hr class="font-sm" />
+          <p
+            class="bg-gradient-to-r from-violet-500 via-indigo to-purple-50 bg-clip-text text-transparent font-bold mt-4"
+          >
+            FIND ME ONLINE
+          </p>
+          <div class="flex gap-4 mt-4">
+            <button
+              class="border rounded-lg text-white py-1 px-2 transition-all hover:-translate-y-0.5"
+            >
+              <a
+                href="https://github.com/Hayat615-coder"
+                target="_blank"
+                class="flex flex-row gap-2 items-center"
+                >GitHub
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-down-right h-4 w-4 text-white"
+                >
+                  <path d="m7 7 10 10"></path>
+                  <path d="M17 7v10H7"></path>
+                </svg>
+              </a>
+            </button>
+            <button
+              class="border rounded-lg text-white py-1 px-2 transition-all hover:-translate-y-0.5"
+            >
+              <a
+                href="https://www.linkedin.com/in/hayat-abdurehman-490003343?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank"
+                class="flex flex-row gap-2 items-center"
+                >LinkedIn
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-down-right h-4 w-4 text-white"
+                >
+                  <path d="m7 7 10 10"></path>
+                  <path d="M17 7v10H7"></path>
+                </svg>
+              </a>
+            </button>
+            <button
+              class="border rounded-lg text-white py-1 px-2 transition-all hover:-translate-y-0.5"
+            >
+              <a
+                href="https://t.me/Tayah15"
+                target="_blank"
+                class="flex flex-row gap-2 items-center"
+                >Telegram
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-down-right h-4 w-4 text-white"
+                >
+                  <path d="m7 7 10 10"></path>
+                  <path d="M17 7v10H7"></path>
+                </svg>
+              </a>
+            </button>
+          </div>
+        </div>
+        <form action="" class="px-12 py-6">
+          <label for="name" class="text-white font-semibold">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            class="bg-transparent text-white placeholder:text-gray-500 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-lg px-4 py-2 w-full my-2"
+          />
+          <label for="email" class="text-white font-semibold">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="You@example.com"
+            class="bg-transparent text-white placeholder:text-gray-500 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-lg px-4 py-2 w-full my-2"
+          />
+          <label for="message" class="text-white font-semibold">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Your message"
+            cols="60"
+            rows="8"
+            class="bg-transparent text-white placeholder:text-gray-500 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-lg px-2 py-1 w-full mb-2"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer
+      class="bg-[rgba(30,41,59,0.7)] p-4 mt-8 flex flex-col md:flex-row gap-6 items-center justify-center"
+    >
+      <div
+        class="transition-all hover:-translate-y-1 hover:bg-white hover:text-black hover:rounded-lg"
+      >
+        <a
+          href=""
+          class="inline-flex items-center gap-2 rounded-lg border border-border/70 bg-card/50 px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/40 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-arrow-up h-4 w-4"
+            aria-hidden="true"
+          >
+            <path d="m5 12 7-7 7 7"></path>
+            <path d="M12 19V5"></path>
+          </svg>
+          Back to top
+        </a>
+      </div>
+      <p class="text-white text-center p-4">
+        &copy; 2026 Hayat Abdurehman. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

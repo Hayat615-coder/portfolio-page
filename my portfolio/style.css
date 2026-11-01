@@ -1,0 +1,25 @@
+:root {
+  --bg-color: #0f172a;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.humberger:hover .lists {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0rem;
+}
