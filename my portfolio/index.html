@@ -27,44 +27,50 @@
             >.</span
           >
         </h1>
-        <div class="humberger flex md:hidden flex-col">
-          <span class="w-4 h-0.5 bg-white mb-1"></span>
-          <span class="w-4 h-0.5 bg-white mb-1"></span>
-          <span class="w-4 h-0.5 bg-white mb-1"></span>
+        <div class="mobile-menu">
+          <div
+            class="hamburger flex md:hidden flex-col gap-1 p-2 text-white"
+            aria-hidden="true"
+          >
+            <span class="w-4 h-0.5 bg-white"></span>
+            <span class="w-4 h-0.5 bg-white"></span>
+            <span class="w-4 h-0.5 bg-white"></span>
+          </div>
+          <ul class="lists text-white">
+            <li
+              class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
+            >
+              <a href="#home">Home</a>
+            </li>
+            <li
+              class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
+            >
+              <a href="#about">About</a>
+            </li>
+            <li
+              class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
+            >
+              <a href="#skills">Skills</a>
+            </li>
+            <li
+              class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
+            >
+              <a href="#projects">Projects</a>
+            </li>
+            <li
+              class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
+            >
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        <ul
-          class="lists hidden md:flex flex-row justify-between gap-6 text-white"
-        >
-          <li
-            class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
-          >
-            <a href="#home">Home</a>
-          </li>
-          <li
-            class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
-          >
-            <a href="#about">About</a>
-          </li>
-          <li
-            class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
-          >
-            <a href="#skills">Skills</a>
-          </li>
-          <li
-            class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
-          >
-            <a href="#projects">Projects</a>
-          </li>
-          <li
-            class="hover:cursor-pointer hover:bg-gradient-to-r hover:from-violet-500 hover:via-indigo hover:to-purple-50 hover:bg-clip-text hover:text-transparent"
-          >
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
       </nav>
     </header>
-    <section id="home" class="md:ml-16 ml-8 flex flex-col-reverse md:flex-row">
-      <div>
+    <section
+      id="home"
+      class="mx-6 flex flex-col-reverse items-center gap-8 md:mx-16 md:flex-row md:justify-between md:gap-12"
+    >
+      <div class="w-full md:flex-1 md:max-w-2xl">
         <h1 class="font-bold text-2xl md:text-5xl md:pt-12 text-white">
           Hi, I'm <br />
           <span
@@ -107,11 +113,11 @@
           </button></a
         >
       </div>
-      <div class="md:mx-48">
+      <div class="flex w-full justify-center md:flex-1 md:justify-end">
         <img
           src="./assets/image.png"
-          alt=""
-          class="w-50 h-100 rounded-full items-center object-cover shadow-2xl"
+          alt="Portrait of Hayat Abdurehman"
+          class="h-56 w-56 rounded-full object-cover shadow-5xl sm:h-64 sm:w-64 md:h-80 md:w-80 lg:h-96 lg:w-96"
         />
       </div>
     </section>
